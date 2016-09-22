@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 public class PrimeNumGen {
 
     public static void main(String[] args) {
@@ -56,7 +55,7 @@ public class PrimeNumGen {
         System.out.print("Your primes are: ");
 
         for (int i = 0; i < prime.size(); i++) {
-            
+
             System.out.print(prime.get(i) + " ");
         }
     }
